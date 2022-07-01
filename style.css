@@ -8,6 +8,7 @@ blockquote {
   font-family: 'DM Serif Display', serif;
 }
 
+
 h1, .h1 {
   font-size: 65px;
 }
@@ -22,6 +23,10 @@ img {
 
 blockquote {
   font-size: 28px;
+}
+
+.lead {
+  font-size: 25px;
 }
 
 sup, .sup {
@@ -65,7 +70,7 @@ sup, .sup {
 
 .background-image {
   background-position: center center;
-  background-size: cover;
+  background-size:cover;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -79,19 +84,23 @@ sup, .sup {
 }
 
 header.p-section {
-  padding: 160px 0px 120px;
+  padding: 50px 0px 50px;
 }
 
 .p-section {
-  padding: 100px 0px;
+  padding: 10px 0px;
 }
 
 .p-section-lg {
-  padding: 160px 0px;
+  padding: 60px 0px;
 }
 
 .container-lg {
   max-width: 900px;
+}
+
+.credit-container {
+  margin-left: 20px
 }
 
 .w-md {
@@ -147,4 +156,26 @@ header.p-section {
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
+}
+
+.bg-black p {
+  height: 10px;
+  padding: 5px;
+}
+
+
+.p-5 p {
+  height: 10px;
+  padding: 5px;
+}
+
+.mt-5 {
+  margin-top: 30px !important;
+}
+
+#foot {
+  display:flex;
+  justify-content: start;
+  /* height: 30px !important; */
+  padding: 20px !important;
 }
