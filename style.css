@@ -8,7 +8,6 @@ blockquote {
   font-family: 'DM Serif Display', serif;
 }
 
-
 h1, .h1 {
   font-size: 65px;
 }
@@ -25,14 +24,28 @@ blockquote {
   font-size: 28px;
 }
 
+.tkd-icon {
+  width:50px;
+}
+
+.text-center {
+  margin-top: 70px;
+}
+
 .lead {
   font-size: 25px;
+}
+
+.container {
+  margin-top: 20px;
 }
 
 sup, .sup {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .underline::after {
@@ -84,11 +97,7 @@ sup, .sup {
 }
 
 header.p-section {
-  padding: 50px 0px 50px;
-}
-
-.p-section {
-  padding: 10px 0px;
+  padding: 80px 0px 0px 0px;
 }
 
 .p-section-lg {
@@ -171,6 +180,10 @@ header.p-section {
 
 .mt-5 {
   margin-top: 30px !important;
+}
+
+#portfolio {
+  margin-top: 80px;
 }
 
 #foot {
