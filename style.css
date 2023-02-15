@@ -96,6 +96,10 @@ sup, .sup {
   border-radius: 500px;
 }
 
+.portfolio {
+  top: -1em;
+}
+
 header.p-section {
   padding: 80px 0px 0px 0px;
 }
@@ -191,4 +195,68 @@ header.p-section {
   justify-content: start;
   /* height: 30px !important; */
   padding: 20px !important;
+}
+
+@media (max-width: 1230px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2, .h2 {
+    font-size: 15px;
+  }
+  .card-footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .grow {
+    width: 100%;
+  }
+
+  .demo {
+    background-color: darkgray;
+  }
+
+  sup {
+    font-size: 25px;
+  }
+
+  blockquote {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    font-size: 20px;
+  }  
+}
+
+
+@media (max-width: 1000px) {
+  
+  .col-sm-4 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .btn {
+    height: 50px;
+    margin: 5px;
+  }
+
+  #text {
+    color: red;
+  }
+
+  .billy {
+    font-size: 0;
+  }
+
+  .jobs{
+    width: 30%;
+  }
 }
