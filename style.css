@@ -197,6 +197,10 @@ header.p-section {
   padding: 20px !important;
 }
 
+.grow {
+  width: 100%;
+}
+
 @media (max-width: 1230px) {
   h1 {
     font-size: 35px;
@@ -212,10 +216,6 @@ header.p-section {
     align-items: center;
   }
  
-  .grow {
-    width: 100%;
-  }
-
   .demo {
     background-color: darkgray;
   }
