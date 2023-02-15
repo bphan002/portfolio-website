@@ -201,6 +201,10 @@ header.p-section {
   width: 100%;
 }
 
+#grow2 {
+  width: 100%;
+}
+
 @media (max-width: 1230px) {
   h1 {
     font-size: 35px;
