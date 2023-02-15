@@ -202,7 +202,7 @@ header.p-section {
 }
 
 #grow2 {
-  width: 100%;
+  width: 100% !important
 }
 
 @media (max-width: 1230px) {
